@@ -1,0 +1,155 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  overflow: hidden;
+}
+
+.bg-image {
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-top {
+  top: 0;
+  left: 0;
+}
+
+.bg-bottom {
+  bottom: 0;
+  right: 0;
+}
+
+.rating-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 3rem auto 3rem;
+  overflow: hidden;
+}
+
+.header {
+  display: inline-block;
+  width: 450px;
+  margin-top: 9rem;
+  margin-left: 17rem;
+  margin-bottom: 6rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  color: hsl(300, 43%, 22%);
+  margin-bottom: 1.5rem;
+}
+
+.text--transparent {
+  color: hsl(303 10% 53%);
+}
+
+.aside {
+  display: inline-block;
+  width: 450px;
+  margin-left: 375px;
+}
+
+.rating {
+  position: relative;
+  width: 450px;
+  margin-bottom: 1em;
+  line-height: 5;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding: 0 2rem;
+}
+
+.start {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+
+.rating__text {
+  margin-left: 1em;
+  vertical-align: middl;
+}
+
+.rating__reviews {
+  margin-left: -75px;
+}
+
+.rating__report {
+  margin-left: -50px;
+}
+
+.main {
+  position: relative;
+ }
+
+.card {
+  width: 400px;
+  margin-left: 17rem;
+  margin-right: 30px;
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  border-radius: 0.8rem;
+  padding: 2rem 2.5rem;
+}
+
+.card-colton {
+  top: 0;
+  left: 0;
+}
+
+.card-irene {
+  position: absolute;
+  top: 50px;
+  left: 445px;
+}
+
+.card-anne {
+  position: absolute;
+  top: 100px;
+  right: 325px;
+}
+
+.user,
+.card__avatar {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card__avatar {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.user__name,
+.user__status {
+  padding: 0.2em 1em;
+}
+
+.user__status {
+  color: hsl(333, 80%, 67%);
+}
+
+.card__opinions {
+  padding-top: 1rem;
+}
